@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">mentalTrainingApp</string>
+    <string name="title_activity_fact_list">FactListActivity</string>
+</resources>

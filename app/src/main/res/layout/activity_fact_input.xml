@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jp.techacademy.ryoichi.gokan.mentaltrainingapp.factInputActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="タイトル"/>
+
+    <EditText
+        android:id="@+id/factTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="タイトルを投稿してください"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事実"/>
+
+    <EditText
+        android:id="@+id/factContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="事実を投稿してください"/>
+
+    <Button
+        android:id="@+id/sendFactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事実を投稿する"/>
+
+    <Button
+        android:id="@+id/displayCommentInputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解釈を投稿する"/>
+
+
+
+</LinearLayout>
